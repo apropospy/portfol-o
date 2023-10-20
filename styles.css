@@ -6,7 +6,7 @@ body {
 body,
 footer,
 .hero-body {
-    background-color: rgb(10, 25, 47) !important;
+    background-color: rgba(0, 0, 0, 0.999) !important;
 }
 
 a {
@@ -27,7 +27,7 @@ p {
 }
 
 .sidebar {
-    background-color: rgb(23, 42, 69);
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -68,7 +68,7 @@ p {
     margin-bottom: 1rem;
 }
 
-.column-header > h1 {
+.column-header>h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     color: white;
@@ -108,15 +108,15 @@ p {
     margin-bottom: 0.5rem;
 }
 
-.terminal-bar > div.icon-btn:first-child {
+.terminal-bar>div.icon-btn:first-child {
     margin-left: 0.6rem;
 }
 
-.terminal-bar > div.icon-btn:not(:first-child) {
+.terminal-bar>div.icon-btn:not(:first-child) {
     margin-left: 0.5rem;
 }
 
-.terminal-bar > div.icon-btn:last-child {
+.terminal-bar>div.icon-btn:last-child {
     margin-right: 0.6rem;
 }
 
@@ -142,7 +142,7 @@ p {
 }
 
 .primary-bg {
-    background-color: rgb(23, 42, 69);
+    background-color: rgb(0, 0, 0);
 }
 
 .shadow {
